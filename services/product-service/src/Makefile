@@ -8,8 +8,8 @@ all: run
 # or to publish the :latest version to the specified registry as :1.0.0, run:
 # $ make publish version=1.0.0
 
-name = ecs-refarch-cloudformation/product-service
-registry = 275396840892.dkr.ecr.us-east-1.amazonaws.com
+name = cfn-demo1/product-service
+registry = 213273172953.dkr.ecr.us-east-1.amazonaws.com/cfn-demo1
 version ?= latest
 
 binary:
